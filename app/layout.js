@@ -1,4 +1,5 @@
-import '../styles/resets.css';
+import '@styles/resets.css';
+import '@styles/layout.css';
 
 export const metadata = {
   title: 'Hoops Central',
