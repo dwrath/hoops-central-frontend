@@ -1,5 +1,6 @@
 import '@styles/resets.css';
 import '@styles/layout.css';
+import Navbar from "@components/Navbar";
 
 export const metadata = {
   title: 'Hoops Central',
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <div className="page-wrapper">
+            <Navbar />
           {children}
         </div>
      </body>
