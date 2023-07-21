@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #B54213;
+    --secondary-color: #161616;
+    --tertiary-color: #E47041;
+    --quaternary-color: #EF7F4D;
+}
+.nav-bg{
+    background-color: var(--tertiary-color);
+    color: white;
+    padding: 10px 0;
+}
