@@ -5,7 +5,6 @@
     --quaternary-color: #EF7F4D;
 }
 .nav-bg{
-    background-color: var(--tertiary-color);
-    color: white;
-    padding: 10px 0;
+    background-color: var(--primary-color);
+    backdrop-filter: blur(5px);
 }

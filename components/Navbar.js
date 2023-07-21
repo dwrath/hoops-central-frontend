@@ -1,12 +1,15 @@
 "use client";
-import '@styles/navbar.css';
+
 import React from 'react';
 import Link from 'next/link';
 import Image from "next/image";
 import {useState, useEffect} from "react";
 import {signIn, signOut, useSession, getProviders} from "next-auth/react";
 
+import '@styles/Navbar.css';
+
 const Navbar = () => {
+
     const isLoggedIn = false;
 
     return(
@@ -43,11 +46,11 @@ const Navbar = () => {
                 </div>
             </div>
         ) : (
-            <div className="container justify-center">
+            <div className="container justify-center nav-bg">
                 <div className="row justify-space-between align-center">
                     <div className="column shrink">
                         <div className="row">
-                            <div className="column shrink">
+                            <div className="column shrink justify-center">
                                 <Image src="/assets/images/basketball-logo.svg"
                                        alt="basketball"
                                        width={30}
