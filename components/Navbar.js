@@ -34,13 +34,13 @@ const Navbar = () => {
                     </div>
                     <div className="column shrink">
                         <nav className="row">
-                            <div className="column"><Link href="/">About</Link></div>
-                            <div className="column"><Link href="/">Contact</Link></div>
+                            <div className="column"><Link className="nav-link underline" href="/">About</Link></div>
+                            <div className="column"><Link className="nav-link underline" href="/">Contact</Link></div>
                         </nav>
                     </div>
                     <div className="column shrink">
                         <div className="row">
-                            <button type="button" className="button">Logout</button>
+                            <button type="button" className="logout-button">Logout</button>
                         </div>
                     </div>
                 </div>
@@ -65,14 +65,14 @@ const Navbar = () => {
                     </div>
                     <div className="column shrink">
                         <nav className="row">
-                            <div className="column"><Link href="/">About</Link></div>
-                            <div className="column"><Link href="/">Contact</Link></div>
+                            <div className="column"><Link className="nav-link underline" href="/">About</Link></div>
+                            <div className="column"><Link className="nav-link underline" href="/">Contact</Link></div>
                         </nav>
                     </div>
                     <div className="column shrink">
                         <div className="row">
-                            <button className="button">Sign In</button>
-                            <button className="button">Sign Up</button>
+                            <button className="signin-button">Sign In</button>
+                            <button className="signup-button">Sign Up</button>
                         </div>
                     </div>
                 </div>

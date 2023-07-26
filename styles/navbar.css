@@ -8,3 +8,19 @@
     background-color: var(--primary-color);
     backdrop-filter: blur(5px);
 }
+.nav-link{
+    color: var(--secondary-color);
+}
+.nav-link:hover{
+    color: var(--tertiary-color);
+}
+.signin-button, .signup-button, .logout-button{
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 5px;
+}
+.signin-button:hover, .signup-button:hover,.logout-button:hover{
+    background-color: var(--quaternary-color);
+    color: var(--secondary-color);
+}
